@@ -29,13 +29,17 @@ body {
     height: 80px;
     flex-basis: 80px;
     border-radius: 80px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 85px;
 }
 
 #rubiks {
     background-image: url(images/rubiks.svg);
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: 85px;
+}
+
+#netball {
+    background-image: url(images/netball.svg);
 }
 
 .skill:hover {
