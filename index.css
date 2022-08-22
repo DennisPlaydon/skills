@@ -1,0 +1,37 @@
+body {
+    max-width: 1080px;
+    margin: 0 auto !important;
+    float: none !important;
+    background-color: #f0ebeb;
+    font-family: "Manrope", sans-serif;
+}
+
+.main {
+    background-color: white;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.inactive-skills-title {
+    margin-top: 4rem;
+}
+
+.skills {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.skill {
+    border: 2px solid black;
+    width: 80px;
+    height: 80px;
+    flex-basis: 80px;
+    border-radius: 80px;
+}
+
+.skill:hover {
+    cursor: pointer;
+    box-shadow: 0 0 25px 1px hsl(150, 100%, 66%);
+}
