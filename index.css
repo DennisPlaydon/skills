@@ -31,6 +31,13 @@ body {
     border-radius: 80px;
 }
 
+#rubiks {
+    background-image: url(images/rubiks.svg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 85px;
+}
+
 .skill:hover {
     cursor: pointer;
     box-shadow: 0 0 25px 1px hsl(150, 100%, 66%);
